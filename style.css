@@ -1,0 +1,28 @@
+body{
+    background: #18181a;
+}
+.container{
+  max-width: 400px;
+}
+input[type=text],
+input[type=text]:focus{
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.514);
+  max-width: 400px;
+}
+.todosList li{
+  background: #18181a;
+}
+.delete{
+  cursor: pointer;
+  }
+
+  .list-group-item i,
+  .list-group-item span {
+  color: #fff;
+}
+
+.todosList li.filtered {
+  display: none !important;
+}
